@@ -52,7 +52,6 @@ searchCountryId(): void {
     });
   } else {
     console.error('Country ID not found or undefined.');
-    // Handle the situation where the country ID is not found or undefined
   }
 
   this.apiService.setCountryData(countryId).subscribe((data: any) => {

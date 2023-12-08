@@ -38,7 +38,7 @@ export class ApiService {
     return new Promise((resolve, reject) => {
       const countries: any[] = [];
       let page = 1;
-      const perPage = 100; // Adjust the per_page parameter based on the API's limits
+      const perPage = 100; 
 
       const fetchNextPage = () => {
         const api = `https://api.worldbank.org/v2/country?format=json&page=${page}&per_page=${perPage}`;
