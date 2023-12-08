@@ -1,0 +1,42 @@
+header {
+    background-color: #b3ecff;
+    color: #042cdb;
+    text-align: center;
+    font-size: x-large;
+    margin: 5px;
+    border-bottom: 2px solid #042cdb;
+    border-top: 2px solid #042cdb;
+}
+.searchQuery {
+    margin: 5px;
+
+}
+.searchBar{
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    max-width: 100%;
+}
+
+.worldMap {
+    width: 60%;
+    height: auto;
+}
+
+path:hover {
+    fill: #b3ecff;
+    stroke: #042cdb;
+}
+
+.information {
+    text-align: center;
+    background-color: #b3ecff;
+    border-radius: 25px;
+    width: 20%;
+    height: fit-content;
+}
